@@ -1,4 +1,3 @@
-
 /* .....Universal styles.... */
 * {
     margin: 0;
@@ -8,34 +7,35 @@
 /* ....body color.... */
 
 body {
-  background-color: #F7F9FE;
+    background-color: #F7F9FE;
 }
 
 /* .....Font family style.... */
 
 .open-sans-inner {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* .........button styles........ */
 
 .btn {
-   font-size: 16px;
-   font-weight: bold;
-   background-color: #4E47FF;
-   border-radius: 10px;
-   color: #FFFFFF;
-   text-align: center;
-   border: none;
-   padding: 12px 36px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    padding: 12px 36px;
 }
+
 .btn:hover {
-   background-color: #0d9356;
-   cursor: pointer;
+    background-color: #0d9356;
+    cursor: pointer;
 }
 
 /* .......banner section styles..... */
@@ -57,9 +57,10 @@ nav {
     padding: 50px 0px;
     margin-bottom: 158px;
 }
+
 nav .logo {
-   font-size: 34px;
-   color: #4E47FF;
+    font-size: 34px;
+    color: #4E47FF;
 }
 
 
@@ -69,6 +70,7 @@ nav .logo {
     text-align: center;
     margin: 0px auto;
 }
+
 .banner-content h1 {
     font-size: 65px;
     font-weight: bold;
@@ -90,11 +92,13 @@ nav .logo {
 .action-content {
     max-width: 517px;
 }
+
 .action-content h1 {
     font-size: 40px;
     font-weight: bold;
     color: #252432;
 }
+
 .action-content p {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
@@ -121,7 +125,7 @@ nav .logo {
     font-weight: bold;
     color: #252432;
     margin-bottom: 40px;
-   
+
 }
 
 .productive-value {
@@ -129,12 +133,14 @@ nav .logo {
     justify-content: space-around;
     /* gap: 158px; */
 }
-.productive-value h1{
+
+.productive-value h1 {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
     max-width: 856px;
 }
+
 .productive-value p {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
@@ -147,6 +153,7 @@ nav .logo {
     margin: 116px auto;
     max-width: 1140px;
 }
+
 .review-con {
     font-size: 42px;
     font-weight: bold;
@@ -156,13 +163,14 @@ nav .logo {
 }
 
 .review-card-container {
-     display: flex;
+    display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .card {
     padding: 24px;
-     width: 100%; 
+    width: 100%;
     border-radius: 14px;
     background-color: #FFFFFF;
 }
@@ -174,10 +182,12 @@ nav .logo {
 .start-content {
     margin: 24px 0px;
 }
-.start-content h1{
+
+.start-content h1 {
     margin-bottom: 10px;
 }
-.start-content p{
+
+.start-content p {
     color: rgba(37, 36, 50, 0.611);
 }
 
@@ -185,15 +195,18 @@ nav .logo {
     display: flex;
     gap: 13px;
 }
-.reviewer-profile h4{
+
+.reviewer-profile h4 {
     color: rgba(37, 36, 50, 0.611);
 }
+
 .reviewer-profile p {
     font-size: 12px;
     color: rgba(37, 36, 50, 0.489);
 }
+
 .reviewer-profile img {
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 /* .............Ready to be focus better style......... */
@@ -211,16 +224,19 @@ nav .logo {
     padding-bottom: 71px;
     border-radius: 14px;
 }
+
 .ready h1 {
-   font-size: 50px;
-   font-weight: bold;
+    font-size: 50px;
+    font-weight: bold;
 }
+
 .ready p {
-   font-size: 16px;
-   color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
 }
+
 .ready img {
-   border-radius: 48px;
+    border-radius: 48px;
 }
 
 
@@ -233,24 +249,30 @@ nav .logo {
     padding: 71px 0px;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    /* gap: 20px; */
 }
-.form-con  {
+
+.form-con {
     font-size: 57px;
     font-weight: bold;
     align-items: center;
     max-width: 500px;
 }
+
 .form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-     max-width: 500px;
+    width: 500px;
 }
+
 .form label {
     font-size: 18px;
+    font-weight: 600;
 }
-.form input, .form textarea {
+
+.form input,
+.form textarea {
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -261,16 +283,17 @@ nav .logo {
 /* ....................Footer section..styles........ */
 
 footer {
-     width: 100%;
+    width: 100%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
 }
+
 .footer-content {
-   max-width: 535px;
-   align-items: center;
+    max-width: 535px;
+    align-items: center;
     text-align: center;
     margin: 104px auto;
 }
@@ -281,12 +304,14 @@ footer {
     color: #4E47FF;
     margin-bottom: 20px;
 }
+
 .footer-content p {
     font-size: 16px;
     font-weight: 500;
     color: #8987A1;
     margin-bottom: 20px;
 }
+
 .footer-content a {
     font-size: 16px;
     color: #8987A1;
