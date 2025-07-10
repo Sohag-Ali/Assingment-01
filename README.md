@@ -1,6 +1,6 @@
 <h1>Project Live Link : <span style="color:red">https://sohag142.github.io/Assingment-01/</span></h1>
 
-## ✅ Main Requirements (50 Marks)
+## ✅ Main Requirements 
 
 ### 1. Navbar Section
 
@@ -9,10 +9,10 @@
 
 ---
 
-### 2. Banner Section (10 Marks)
+### 2. Banner Section 
 
-- **Heading** in the center. (3)
-- **Stay Focused** button in the center. (3)
+- **Heading** in the center.
+- **Stay Focused** button in the center. 
 
 ---
 
@@ -43,7 +43,7 @@
 
 ---
 
-### 5. Let’s Get In Touch Section (10 Marks)
+### 5. Let’s Get In Touch Section 
 
 - Left Side:
   - Section Title
@@ -64,7 +64,7 @@
 
 ## <img width="100%" src="./ui/footer.png">
 
-## 🧪 CHALLENGES (10 Marks)
+## 🧪 CHALLENGES
 
 ### 7. Users’ Feedback Section
 
