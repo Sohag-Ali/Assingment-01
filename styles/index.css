@@ -7,7 +7,7 @@
 /* ....body color.... */
 
 body {
-    background-color: #F7F9FE;
+    background-color: #F5F8FF;
 }
 
 /* .....Font family style.... */
@@ -173,6 +173,7 @@ nav .logo {
     width: 100%;
     border-radius: 14px;
     background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .start {
